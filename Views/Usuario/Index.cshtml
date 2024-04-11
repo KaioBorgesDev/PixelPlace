@@ -1,10 +1,10 @@
 ﻿@model IEnumerable<ProjetoPixelPlace.Entities.Usuario>
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Index";
 }
 
-<h1>Details</h1>
+<h1>Index</h1>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -34,7 +34,6 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                
                 @Html.DisplayFor(modelItem => item.NomeUsuario)
             </td>
             <td>

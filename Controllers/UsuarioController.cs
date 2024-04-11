@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using ProjetoPixelPlace.Entities;
 using ProjetoPixelPlace.Models;
 
@@ -11,21 +12,22 @@ namespace ProjetoPixelPlace.Controllers
         // GET: UsuarioController
         public ActionResult Index()
         {
-            
-            return View();
-        }
-
-        // GET: UsuarioController/Details/5
-        public ActionResult Details(int id)
-        {
 
             List<Usuario> users = model.getAllUser();
             return View(users);
         }
 
+        // GET: UsuarioController/Details/5
+        public ActionResult Details()
+        {
+            return View();
+            
+        }
+
         // GET: UsuarioController/Create
         public ActionResult Create()
         {
+            
             return View();
         }
 
@@ -33,14 +35,21 @@ namespace ProjetoPixelPlace.Controllers
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create(string nomeUsuario, string UrlImage, string email, string senha)
         {
             try
             {
+                Usuario u = new Usuario(null, nomeUsuario, UrlImage, email, senha);
+
+                var msg = model.inserirUsuario(u);
+                if (msg == "Usuário cadastrado com sucesso")
                 return RedirectToAction(nameof(Index));
+                else return View(msg);
             }
             catch
             {
+
+                
                 return View();
             }
         }

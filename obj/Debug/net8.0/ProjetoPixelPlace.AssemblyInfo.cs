@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjetoPixelPlace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+648d3f97fc976bee930aa8da8e74f0b632554e29")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f85322322b97223d878955a28b649e1b76a88ad3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProjetoPixelPlace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProjetoPixelPlace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

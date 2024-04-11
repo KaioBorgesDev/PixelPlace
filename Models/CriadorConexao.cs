@@ -8,15 +8,11 @@ namespace ProjetoPixelPlace.Models
         {
         }
 
-        public static MySqlConnection getConexao()
+        public static MySqlConnection getConexao(string nomeConexao)
         {
             
-            MySqlConnection conexao = new MySqlConnection(Configuration().GetConnectionString("casa"));
+            MySqlConnection conexao = new MySqlConnection(Configuration().GetConnectionString(nomeConexao));
 
-            if (conexao == null) {
-                return new MySqlConnection(
-                Configuration().GetConnectionString("ConexaoPadrao"));
-            }
             return conexao;
         }
 
