@@ -44,12 +44,10 @@ namespace ProjetoPixelPlace.Controllers
                 var msg = model.inserirUsuario(u);
                 if (msg == "Usuário cadastrado com sucesso")
                 return RedirectToAction(nameof(Index));
-                else return View(msg);
+                return View(msg);
             }
             catch
-            {
-
-                
+            { 
                 return View();
             }
         }
