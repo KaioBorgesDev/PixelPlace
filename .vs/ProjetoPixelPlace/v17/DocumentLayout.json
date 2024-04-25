@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\models\\jogomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:models\\jogomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\views\\jogo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:views\\jogo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\entities\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:entities\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\models\\jogomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:models\\jogomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|c:\\users\\aluno.escolar509\\source\\repos\\kaioborgesdev\\pixelplace\\controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40F24B82-B3F1-4828-8C95-D79F60F5F651}|ProjetoPixelPlace.csproj|solutionrelative:controllers\\jogocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,33 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "JogoModel.cs",
               "DocumentMoniker": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Models\\JogoModel.cs",
               "RelativeDocumentMoniker": "Models\\JogoModel.cs",
-              "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Models\\JogoModel.cs",
-              "RelativeToolTip": "Models\\JogoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Models\\JogoModel.cs*",
+              "RelativeToolTip": "Models\\JogoModel.cs*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:48:26.035Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Views\\Jogo\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Jogo\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Views\\Jogo\\Create.cshtml",
-              "RelativeToolTip": "Views\\Jogo\\Create.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAC0AAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T19:53:16.791Z",
               "EditorCaption": ""
             },
             {
@@ -61,13 +52,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Jogo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Entities\\Jogo.cs",
+              "RelativeDocumentMoniker": "Entities\\Jogo.cs",
+              "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Entities\\Jogo.cs",
+              "RelativeToolTip": "Entities\\Jogo.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T19:54:29.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Views\\Jogo\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Jogo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Views\\Jogo\\Create.cshtml",
+              "RelativeToolTip": "Views\\Jogo\\Create.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADQAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T19:53:16.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "JogoController.cs",
               "DocumentMoniker": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Controllers\\JogoController.cs",
               "RelativeDocumentMoniker": "Controllers\\JogoController.cs",
               "ToolTip": "C:\\Users\\Aluno.ESCOLAR509\\source\\repos\\KaioBorgesDev\\PixelPlace\\Controllers\\JogoController.cs",
               "RelativeToolTip": "Controllers\\JogoController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBoAAAAVAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAA5wCwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T19:50:41.455Z",
               "EditorCaption": ""

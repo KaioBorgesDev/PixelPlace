@@ -45,6 +45,10 @@ namespace ProjetoPixelPlace.Models
         public string inserirJogo(Jogo jogo)
         {
             string mensagem = "";
+
+            
+
+            
             try
             {
                 using (MySqlConnection con = CriadorConexao.getConexao("ConexaoPadrao"))
@@ -58,7 +62,8 @@ namespace ProjetoPixelPlace.Models
                         mySqlCommand.Parameters.AddWithValue("@categoria", jogo.Categoria);
                         mySqlCommand.Parameters.AddWithValue("@preco", jogo.Preco);
                         mySqlCommand.Parameters.AddWithValue("@desconto", jogo.Desconto);
-                        mySqlCommand.Parameters.AddWithValue("@data", jogo.Data);
+                        //validacao para enviar a data certa para o BD;
+                        mySqlCommand.Parameters.AddWithValue("@data", jogo.Data.ToString("yyyy-MM-dd HH:mm"));
 
                         int rowsAffected = mySqlCommand.ExecuteNonQuery();
                         if (rowsAffected > 0)
