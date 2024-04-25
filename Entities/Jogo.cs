@@ -9,9 +9,9 @@
         string categoria;
         double preco;
         double desconto;
-        string data;
+        DateTime data;
 
-        public Jogo(int? idJogo, string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, string data)
+        public Jogo(int? idJogo, string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, DateTime data)
         {
             this.idJogo = idJogo;
             this.nome = nome;
@@ -30,6 +30,6 @@
         public string Categoria { get => categoria; set => categoria = value; }
         public double Preco { get => preco; set => preco = value; }
         public double Desconto { get => desconto; set => desconto = value; }
-        public string Data { get => data; set => data = value; }
+        public DateTime Data { get => data; set => data = value; }
     }
 }

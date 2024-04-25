@@ -34,7 +34,7 @@ namespace ProjetoPixelPlace.Models
                     reader["categoria"].ToString(),
                     Double.Parse(reader["preco"].ToString()),
                     Double.Parse(reader["desconto"].ToString()),
-                    reader["data"].ToString());
+                    DateTime.Parse(reader["data"].ToString()));
                  
                 jogoList.Add(jogo);
                 

@@ -30,7 +30,7 @@ namespace ProjetoPixelPlace.Controllers
         // POST: JogoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create( string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, string data)
+        public ActionResult Create( string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, DateTime data)
         {
             try
             {
