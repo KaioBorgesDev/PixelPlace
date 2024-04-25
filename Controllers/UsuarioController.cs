@@ -33,11 +33,10 @@ namespace ProjetoPixelPlace.Controllers
         }
 
         //index cadastrar, aqui vira o model.inserirUsuario...
-        public ActionResult Cadastrar()
+        public ActionResult Create()
         {
             return View();
         }
-
         
         public ActionResult Index()
         {
@@ -65,14 +64,13 @@ namespace ProjetoPixelPlace.Controllers
         [ValidateAntiForgeryToken]
         //aqui é o create do usuario...
         public ActionResult Create(string nomeUsuario, string UrlImage, string email, string senha)
-        {
-
-            
+        {  
             try
             {
                 Usuario u = new Usuario(null, nomeUsuario, UrlImage, email, senha);
 
                 var msg = model.inserirUsuario(u);
+
                 if (msg == "Usuário cadastrado com sucesso")
                 return RedirectToAction(nameof(Index));
 

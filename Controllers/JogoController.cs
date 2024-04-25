@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ProjetoPixelPlace.Entities;
 using ProjetoPixelPlace.Models;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProjetoPixelPlace.Controllers
 {
@@ -29,11 +30,17 @@ namespace ProjetoPixelPlace.Controllers
         // POST: JogoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public ActionResult Create( string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, string data)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var jogoAdd = new Jogo(null, nome, urlCapa, descricao, categoria, preco, desconto, data);
+                string result = jogoModel.inserirJogo(jogoAdd);
+
+                if (result == "Jogo cadastrado com sucesso")
+                    return RedirectToAction(nameof(Index));
+
+                return View(result);
             }
             catch
             {

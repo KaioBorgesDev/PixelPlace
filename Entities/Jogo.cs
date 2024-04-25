@@ -2,7 +2,7 @@
 {
     public class Jogo
     {
-        string? idJogo;
+        int? idJogo;
         string nome;
         string urlCapa;
         string descricao;
@@ -11,7 +11,7 @@
         double desconto;
         string data;
 
-        public Jogo(string? idJogo, string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, string data)
+        public Jogo(int? idJogo, string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, string data)
         {
             this.idJogo = idJogo;
             this.nome = nome;
@@ -23,7 +23,7 @@
             this.data = data;
         }
 
-        public string? IdJogo { get => idJogo; set => idJogo = value; }
+        public int? IdJogo { get => idJogo; set => idJogo = value; }
         public string Nome { get => nome; set => nome = value; }
         public string UrlCapa { get => urlCapa; set => urlCapa = value; }
         public string Descricao { get => descricao; set => descricao = value; }
