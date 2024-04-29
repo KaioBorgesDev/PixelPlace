@@ -30,12 +30,24 @@ namespace ProjetoPixelPlace.Controllers
         // POST: JogoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create( string nome, byte[] imagemCapa, string descricao, string categoria, double preco, double desconto, DateTime data)
+        public ActionResult Create(string nome, string descricao, string categoria, double preco, double desconto, DateTime data)
         {
+            string result = "";
+            byte[] image = null;
             try
             {
-                var jogoAdd = new Jogo(null, nome, imagemCapa, descricao, categoria, preco, desconto, data);
-                string result = jogoModel.inserirJogo(jogoAdd);
+                foreach (IFormFile arq in Request.Form.Files)
+                {
+                    if (arq.ContentType.Contains("image"))
+                    {
+                        MemoryStream memoryStream = new MemoryStream();
+                        arq.CopyTo(memoryStream);
+                        image = memoryStream.ToArray();
+                        var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data);
+                        result = jogoModel.inserirJogo(jogoAdd);
+                    }
+                }
+                
 
                 if (result == "Jogo cadastrado com sucesso")
                     return RedirectToAction(nameof(Index));

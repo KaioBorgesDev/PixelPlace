@@ -45,9 +45,7 @@ namespace ProjetoPixelPlace.Models
         public string inserirJogo(Jogo jogo)
         {
             string mensagem = "";
-
-            
-
+           
             
             try
             {
