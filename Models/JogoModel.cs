@@ -29,7 +29,7 @@ namespace ProjetoPixelPlace.Models
             while(reader.Read()) {
                 Jogo jogo = new Jogo(int.Parse(reader["idJogo"].ToString()),
                     reader["nome"].ToString(),
-                    reader["urlCapa"].ToString(),
+                    (byte[]) reader["imagemCapa"],
                     reader["descricao"].ToString(),
                     reader["categoria"].ToString(),
                     Double.Parse(reader["preco"].ToString()),
@@ -54,10 +54,10 @@ namespace ProjetoPixelPlace.Models
                 using (MySqlConnection con = CriadorConexao.getConexao("ConexaoPadrao"))
                 {
                     con.Open();
-                    using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO Jogo(nome, urlCapa, descricao, categoria,preco,desconto,data) VALUES (@nome, @urlCapa, @descricao,@categoria,@preco,@desconto,@data)", con))
+                    using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO Jogo(nome, imagemCapa, descricao, categoria,preco,desconto,data) VALUES (@nome, @imagemCapa, @descricao,@categoria,@preco,@desconto,@data)", con))
                     {
                         mySqlCommand.Parameters.AddWithValue("@nome", jogo.Nome);
-                        mySqlCommand.Parameters.AddWithValue("@urlCapa", jogo.UrlCapa);
+                        mySqlCommand.Parameters.AddWithValue("@imagemCapa", jogo.ImagemCapa);
                         mySqlCommand.Parameters.AddWithValue("@descricao", jogo.Descricao);
                         mySqlCommand.Parameters.AddWithValue("@categoria", jogo.Categoria);
                         mySqlCommand.Parameters.AddWithValue("@preco", jogo.Preco);
