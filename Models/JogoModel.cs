@@ -6,10 +6,6 @@ namespace ProjetoPixelPlace.Models
     public class JogoModel
     {
         private MySqlConnection con;
-        public JogoModel()
-        {
-        }
-
         public List<Jogo> getAllJogos()
         {
             List<Jogo> jogoList = new List<Jogo>(); 
@@ -29,7 +25,7 @@ namespace ProjetoPixelPlace.Models
             while(reader.Read()) {
                 Jogo jogo = new Jogo(int.Parse(reader["idJogo"].ToString()),
                     reader["nome"].ToString(),
-                    (byte[]) reader["imagemCapa"],
+                    (byte[])reader["imagemCapa"],
                     reader["descricao"].ToString(),
                     reader["categoria"].ToString(),
                     Double.Parse(reader["preco"].ToString()),
@@ -55,6 +51,9 @@ namespace ProjetoPixelPlace.Models
                     using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO Jogo(nome, imagemCapa, descricao, categoria,preco,desconto,data) VALUES (@nome, @imagemCapa, @descricao,@categoria,@preco,@desconto,@data)", con))
                     {
                         mySqlCommand.Parameters.AddWithValue("@nome", jogo.Nome);
+
+
+
                         mySqlCommand.Parameters.AddWithValue("@imagemCapa", jogo.ImagemCapa);
                         mySqlCommand.Parameters.AddWithValue("@descricao", jogo.Descricao);
                         mySqlCommand.Parameters.AddWithValue("@categoria", jogo.Categoria);
@@ -63,6 +62,7 @@ namespace ProjetoPixelPlace.Models
                         //validacao para enviar a data certa para o BD;
                         mySqlCommand.Parameters.AddWithValue("@data", jogo.Data.ToString("yyyy-MM-dd HH:mm"));
 
+                       
                         int rowsAffected = mySqlCommand.ExecuteNonQuery();
                         if (rowsAffected > 0)
                         {
@@ -72,6 +72,7 @@ namespace ProjetoPixelPlace.Models
                         {
                             mensagem = "Falha ao cadastrar jogo";
                         }
+                        con.Close();
                     }
                 }
             }
@@ -79,7 +80,9 @@ namespace ProjetoPixelPlace.Models
             {
                 mensagem = "Ocorreu um erro ao cadastrar o jogo: " + ex.Message;
             }
+            
             return mensagem;
+
         }
     }
 }

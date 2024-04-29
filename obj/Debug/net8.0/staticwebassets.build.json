@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "24PMXCCTXVVwMRZ3XJRS2CU5f6AcAuPokGPj3Fhy2j4=",
+  "Hash": "Ze2LqinrP04Byx7TAZ9cH0kLvzfwgTCDJswb4RXbxkE=",
   "Source": "ProjetoPixelPlace",
   "BasePath": "_content/ProjetoPixelPlace",
   "Mode": "Default",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "C:\\Users\\aluno\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\8.0.4\\staticwebassets\\QuickGrid.razor.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjetoPixelPlace.styles.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjetoPixelPlace.styles.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/ProjetoPixelPlace",
       "RelativePath": "ProjetoPixelPlace.styles.css",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjetoPixelPlace.styles.css"
+      "OriginalItemSpec": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ProjetoPixelPlace.styles.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoPixelPlace.bundle.scp.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoPixelPlace.bundle.scp.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/ProjetoPixelPlace",
       "RelativePath": "ProjetoPixelPlace.bundle.scp.css",
       "AssetKind": "All",
@@ -90,10 +90,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoPixelPlace.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ProjetoPixelPlace.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\css\\site.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -112,7 +112,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\favicon.ico",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -131,7 +131,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\js\\site.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -150,7 +150,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -169,7 +169,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -188,7 +188,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -207,7 +207,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -226,7 +226,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -245,7 +245,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -264,7 +264,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -283,7 +283,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -302,7 +302,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -321,7 +321,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -340,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -359,7 +359,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -378,7 +378,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -397,7 +397,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -416,7 +416,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -435,7 +435,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -454,7 +454,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -473,7 +473,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -492,7 +492,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -511,7 +511,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -530,7 +530,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -549,7 +549,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -568,7 +568,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -587,7 +587,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -606,7 +606,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -625,7 +625,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -644,7 +644,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -663,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -682,7 +682,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -701,7 +701,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -720,7 +720,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -739,7 +739,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -758,7 +758,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -777,7 +777,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -796,7 +796,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -815,7 +815,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -834,7 +834,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -853,7 +853,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -872,7 +872,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -891,7 +891,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -910,7 +910,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -929,7 +929,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -948,7 +948,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -967,7 +967,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -986,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1005,7 +1005,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1024,7 +1024,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1043,7 +1043,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1062,7 +1062,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1081,7 +1081,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1100,7 +1100,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1119,7 +1119,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1138,7 +1138,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1157,7 +1157,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1176,7 +1176,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1195,7 +1195,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",
@@ -1214,7 +1214,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\aluno\\Source\\Repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "ProjetoPixelPlace",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\aluno\\source\\repos\\KaioBorgesDev\\PixelPlace\\wwwroot\\",

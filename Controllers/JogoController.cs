@@ -43,15 +43,16 @@ namespace ProjetoPixelPlace.Controllers
                         MemoryStream memoryStream = new MemoryStream();
                         arq.CopyTo(memoryStream);
                         image = memoryStream.ToArray();
+
                         var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data);
                         result = jogoModel.inserirJogo(jogoAdd);
                     }
                 }
                 
-
                 if (result == "Jogo cadastrado com sucesso")
+                {
                     return RedirectToAction(nameof(Index));
-
+                }
                 return View(result);
             }
             catch

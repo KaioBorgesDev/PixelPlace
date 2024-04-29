@@ -25,12 +25,11 @@
 
         public int? IdJogo { get => idJogo; set => idJogo = value; }
         public string Nome { get => nome; set => nome = value; }
-        
+        public byte[] ImagemCapa { get => imagemCapa; set => imagemCapa = value; }
         public string Descricao { get => descricao; set => descricao = value; }
         public string Categoria { get => categoria; set => categoria = value; }
         public double Preco { get => preco; set => preco = value; }
         public double Desconto { get => desconto; set => desconto = value; }
         public DateTime Data { get => data; set => data = value; }
-        public byte[] ImagemCapa { get => imagemCapa; set => imagemCapa = value; }
     }
 }
