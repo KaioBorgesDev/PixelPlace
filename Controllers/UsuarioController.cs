@@ -67,10 +67,14 @@ namespace ProjetoPixelPlace.Controllers
         {  
             try
             {
+                //crio um user
                 Usuario u = new Usuario(null, nomeUsuario, UrlImage, email, senha);
+
+                //insiro o user e guardo a resposta..
 
                 var msg = model.inserirUsuario(u);
 
+                //se a mensagem for sucedida, mando pro index, caso nao retorno a mensagem de erro pra mesma view, criar um dialogo sobre isso
                 if (msg == "Usuário cadastrado com sucesso")
                 return RedirectToAction(nameof(Index));
 

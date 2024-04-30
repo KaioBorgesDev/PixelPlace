@@ -8,7 +8,7 @@ namespace ProjetoPixelPlace.Models
         private MySqlConnection con;
         public List<Jogo> getAllJogos()
         {
-            List<Jogo> jogoList = new List<Jogo>(); 
+            List<Jogo> jogoList = new List<Jogo>(); ''
             try
             {
                 con = CriadorConexao.getConexao("ConexaoPadrao");
