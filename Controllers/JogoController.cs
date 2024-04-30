@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using ProjetoPixelPlace.Entities;
 using ProjetoPixelPlace.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace ProjetoPixelPlace.Controllers
 {
@@ -10,9 +10,22 @@ namespace ProjetoPixelPlace.Controllers
     {
         private JogoModel jogoModel = new JogoModel();
         // GET: JogoController
+
+
+
         public ActionResult Index()
         {
             return View(jogoModel.getAllJogos());
+
+            /*
+<h1>Listar Imagens</h1>
+@foreach(string imagem in Model)
+{
+    string formato = "data:image/jpeg;base64," + imagem;
+    <img src="@formato" />
+    <br />
+}
+    < br />*/
         }
 
         // GET: JogoController/Details/5
@@ -28,13 +41,14 @@ namespace ProjetoPixelPlace.Controllers
         }
 
         // POST: JogoController/Create
+        [ServiceFilter(typeof(Autenticao))]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create( string nome, string urlCapa, string descricao, string categoria, double preco, double desconto, DateTime data)
+        public ActionResult Create( string nome, byte[] image, string descricao, string categoria, double preco, double desconto, DateTime data)
         {
             try
             {
-                var jogoAdd = new Jogo(null, nome, urlCapa, descricao, categoria, preco, desconto, data);
+                var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data);
                 string result = jogoModel.inserirJogo(jogoAdd);
 
                 if (result == "Jogo cadastrado com sucesso")

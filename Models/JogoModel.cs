@@ -29,7 +29,8 @@ namespace ProjetoPixelPlace.Models
             while(reader.Read()) {
                 Jogo jogo = new Jogo(int.Parse(reader["idJogo"].ToString()),
                     reader["nome"].ToString(),
-                    reader["urlCapa"].ToString(),
+
+                    (byte[])reader["urlCapa"],
                     reader["descricao"].ToString(),
                     reader["categoria"].ToString(),
                     Double.Parse(reader["preco"].ToString()),
