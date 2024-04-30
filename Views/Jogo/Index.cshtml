@@ -19,7 +19,7 @@
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.UrlCapa)
+                @Html.DisplayNameFor(model => model.ImagemCapa)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Descricao)
@@ -49,8 +49,12 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UrlCapa)
+            <td>               
+                    @{
+                        string imagem = Convert.ToBase64String(item.ImagemCapa);
+                        string formato = "data:image/jpeg;base64," + imagem;    
+                        <img src="@formato"/>
+                    }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Descricao)
