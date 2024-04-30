@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using MySql.Data.MySqlClient;
 using ProjetoPixelPlace.Entities;
 
 namespace ProjetoPixelPlace.Models
@@ -6,9 +7,11 @@ namespace ProjetoPixelPlace.Models
     public class JogoModel
     {
         private MySqlConnection con;
+
+        
         public List<Jogo> getAllJogos()
         {
-            List<Jogo> jogoList = new List<Jogo>(); ''
+            List<Jogo> jogoList = new List<Jogo>(); 
             try
             {
                 con = CriadorConexao.getConexao("ConexaoPadrao");
@@ -25,13 +28,12 @@ namespace ProjetoPixelPlace.Models
             while(reader.Read()) {
                 Jogo jogo = new Jogo(int.Parse(reader["idJogo"].ToString()),
                     reader["nome"].ToString(),
-
-                    (byte[])reader["urlCapa"],
+                    (byte[])reader["imagemCapa"],
                     reader["descricao"].ToString(),
                     reader["categoria"].ToString(),
                     Double.Parse(reader["preco"].ToString()),
                     Double.Parse(reader["desconto"].ToString()),
-                    DateTime.Parse(reader["data"].ToString()));
+                    DateTime.Parse(reader["data"].ToString())); ;
                  
                 jogoList.Add(jogo);
                 
@@ -43,7 +45,7 @@ namespace ProjetoPixelPlace.Models
         {
             string mensagem = "";
            
-            
+        
             try
             {
                 using (MySqlConnection con = CriadorConexao.getConexao("ConexaoPadrao"))
@@ -52,9 +54,6 @@ namespace ProjetoPixelPlace.Models
                     using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO Jogo(nome, imagemCapa, descricao, categoria,preco,desconto,data) VALUES (@nome, @imagemCapa, @descricao,@categoria,@preco,@desconto,@data)", con))
                     {
                         mySqlCommand.Parameters.AddWithValue("@nome", jogo.Nome);
-
-
-
                         mySqlCommand.Parameters.AddWithValue("@imagemCapa", jogo.ImagemCapa);
                         mySqlCommand.Parameters.AddWithValue("@descricao", jogo.Descricao);
                         mySqlCommand.Parameters.AddWithValue("@categoria", jogo.Categoria);

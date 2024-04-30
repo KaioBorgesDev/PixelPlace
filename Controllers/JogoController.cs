@@ -11,7 +11,9 @@ namespace ProjetoPixelPlace.Controllers
 
         //injecao da classe model
         private JogoModel jogoModel = new JogoModel();
-        // GET: JogoController
+        
+
+        [ServiceFilter(typeof(Autenticao))]
         public ActionResult Index()
         {
             //no index retorna todos os jogos.

@@ -14,7 +14,7 @@ namespace ProjetoPixelPlace.Models
         {
             if(context.HttpContext.Session.GetString("user") == null)
             {
-                context.Result = new RedirectResult("~/Logar");
+                context.Result = new RedirectResult("~/Usuario/Logar");
             }
         }
     }
