@@ -9,25 +9,34 @@ namespace ProjetoPixelPlace.Controllers
 {
     public class UsuarioController : Controller
     {
-        //Oi pra quem tiver lendo, espero que voce não entenda nada, e q eu esteja r.i.p
+        //Oi lucas, ana ou samuel
 
 
         //model do banco de dados
         UsuarioModel model = new UsuarioModel();
 
 
-
-        //colocar como parametrom, email e senha, ver se existe esse usuario, caso existir, coloca ele em uma session
         public ActionResult Logar()
         {
+            return View();
+        }
 
-            // era pra ser model.ValidaUser(), mas criei usuario de teste
-            //criei um usuario teste
-            Usuario user = new Usuario(null, "Joao", null, "kaio", "1234");
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Logar(string email, string senha)   //colocar como parametro, email e senha, ver se existe esse usuario, caso existir, coloca ele em uma session
+        {
+            var user = model.ValidaUser(email, senha);
+            if (user!=null)
+            {
+                HttpContext.Session.SetString("user", JsonConvert.SerializeObject(user));
+                return RedirectToAction("Listagem");
+            }
 
 
+            return View();
+           
             //e retornei a index de listar, mas deveria validar se ele realmente esta logado;
-            return RedirectToAction("Listagem");
+            
         }
 
         //index cadastrar, aqui vira o model.inserirUsuario...

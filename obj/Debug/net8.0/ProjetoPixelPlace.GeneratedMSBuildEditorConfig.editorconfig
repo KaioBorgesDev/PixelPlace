@@ -17,13 +17,13 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoPixelPlace
 build_property.RootNamespace = ProjetoPixelPlace
-build_property.ProjectDir = C:\Users\julin\Source\Repos\KaioBorgesDev\PixelPlace\
+build_property.ProjectDir = C:\Users\julin\source\repos\KaioBorgesDev\PixelPlace\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\julin\Source\Repos\KaioBorgesDev\PixelPlace
+build_property.MSBuildProjectDirectory = C:\Users\julin\source\repos\KaioBorgesDev\PixelPlace
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/julin/Source/Repos/KaioBorgesDev/PixelPlace/Views/Home/Index.cshtml]
@@ -56,6 +56,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/julin/Source/Repos/KaioBorgesDev/PixelPlace/Views/Usuario/Listagem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMaXN0YWdlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/julin/Source/Repos/KaioBorgesDev/PixelPlace/Views/Usuario/Logar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/julin/Source/Repos/KaioBorgesDev/PixelPlace/Views/_ViewImports.cshtml]

@@ -80,10 +80,10 @@ namespace ProjetoPixelPlace.Models
             }
             return mensagem;
         }
-        public Object ValidaUser(string email, string password)
+        public Usuario ValidaUser(string email, string senha)
         {
             Usuario user;
-
+            byte[] imagem = null;
             MySqlConnection con;
             try
             {
@@ -101,24 +101,29 @@ namespace ProjetoPixelPlace.Models
 
 
             MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO WHERE email = @email AND senha = @senha", con);
-            command.Parameters.AddWithValue("@email", 123);
-            command.Parameters.AddWithValue("@senha", 123);
+            command.Parameters.AddWithValue("@email", email);
+            command.Parameters.AddWithValue("@senha", senha);
             MySqlDataReader reader = command.ExecuteReader();
 
             //caso encontre algo
             while (reader.Read())
             {
+
+                if (!reader.IsDBNull(reader.GetOrdinal("imagem")))
+                {
+                    imagem = (byte[])reader["imagem"];
+                }
+
                 int idUsuario = (int)reader["idUsuario"];
                 string NomeUsuario = (string)reader["nomeUser"];
-                byte[] imagem = (byte[])reader["imagem"];
                 string emailUser = (string)reader["email"];
-                string senha = (string)reader["senha"];
+                string senhaU = (string)reader["senha"];
 
-                user = new Usuario(idUsuario, NomeUsuario, imagem, emailUser, senha);
+                user = new Usuario(idUsuario, NomeUsuario, imagem, emailUser, senhaU);
 
                 return user;
             }
-            return "Usuario não encontrado!";
+            return null;
         }
     }  
 }
