@@ -4,18 +4,16 @@
     {
         private int? idUsuario;
         private string nomeUsuario;
-        private string urlImage;
         private string email;
         private string senha;
-        private object value;
-        private string nomeUser;
-        private string imageUrl;
+        private byte[] image;
 
-        public Usuario(int? idUsuario, string nomeUsuario, string urlImage, string email, string senha)
+
+        public Usuario(int? idUsuario, string nomeUsuario, byte[] image, string email, string senha)
         {
             this.idUsuario = idUsuario;
             this.nomeUsuario = nomeUsuario;
-            this.urlImage = urlImage;
+            this.image = image;
             this.email = email;
             this.senha = senha;
         }
@@ -23,7 +21,7 @@
       
 
         public string NomeUsuario { get => nomeUsuario; set => nomeUsuario = value; }
-        public string UrlImage { get => urlImage; set => urlImage = value; }
+        public byte[] UrlImage { get => image; set => image = value; }
         public string Email { get => email; set => email = value; }
         public string Senha { get => senha; set => senha = value; }
         public int? IdUsuario { get => idUsuario; }
