@@ -13,6 +13,7 @@ namespace ProjetoPixelPlace.Models
 
             List<Usuario> users = new List<Usuario>();
             MySqlConnection con;
+            byte[] imagem = null; 
             try
             {
                 con = CriadorConexao.getConexao("ConexaoPadrao");
@@ -29,13 +30,19 @@ namespace ProjetoPixelPlace.Models
             MySqlDataReader reader = comando.ExecuteReader();
             while (reader.Read())
             {
+
+                if (!reader.IsDBNull(reader.GetOrdinal("imagem"))){
+                    imagem = (byte[])reader["imagem"];
+                }
+                
                 Usuario usuario = new Usuario(int.Parse(reader["idUsuario"].ToString()),
-                    reader["NomeUser"].ToString(),
-                    reader["UrlImage"].ToString(),
-                    reader["Email"].ToString(),
-                    reader["Senha"].ToString());
+                reader["nomeUser"].ToString(),
+                imagem,
+                reader["Email"].ToString(),
+                reader["Senha"].ToString());
 
                 users.Add(usuario);
+             
             }
             con.Close();
             return users;
@@ -47,13 +54,12 @@ namespace ProjetoPixelPlace.Models
             string mensagem = "";
             try
             {
-                using (MySqlConnection con = CriadorConexao.getConexao("ConexaoPadrao"))
+                using (MySqlConnection con = CriadorConexao.getConexao("casa"))
                 {
                     con.Open();
-                    using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO usuario(nomeUser, urlImage, email, senha) VALUES (@nome, @urlImage, @email, @senha)", con))
+                    using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO usuario(nomeUser, email, senha) VALUES (@nome, @email, @senha)", con))
                     {
                         mySqlCommand.Parameters.AddWithValue("@nome", usuario.NomeUsuario);
-                        mySqlCommand.Parameters.AddWithValue("@urlImage", usuario.UrlImage);
                         mySqlCommand.Parameters.AddWithValue("@email", usuario.Email);
                         mySqlCommand.Parameters.AddWithValue("@senha", usuario.Senha);
                         int rowsAffected = mySqlCommand.ExecuteNonQuery();
@@ -104,11 +110,11 @@ namespace ProjetoPixelPlace.Models
             {
                 int idUsuario = (int)reader["idUsuario"];
                 string NomeUsuario = (string)reader["nomeUser"];
-                string urlImage = (string)reader["urlImage"];
+                byte[] imagem = (byte[])reader["imagem"];
                 string emailUser = (string)reader["email"];
                 string senha = (string)reader["senha"];
 
-                user = new Usuario(idUsuario, NomeUsuario, urlImage, emailUser, senha);
+                user = new Usuario(idUsuario, NomeUsuario, imagem, emailUser, senha);
 
                 return user;
             }

@@ -58,7 +58,7 @@ namespace ProjetoPixelPlace.Controllers
                         //depois deixo em array de bytes
                         image = memoryStream.ToArray();
 
-                         //crio um jogo que sera adicionado com os campos
+                        //crio um jogo que sera adicionado com os campos
                         var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data);
                         //passo para o resultado o return do jogoADD (cadastrado com sucesso ou erro)
                         result = jogoModel.inserirJogo(jogoAdd);

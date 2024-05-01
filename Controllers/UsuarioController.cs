@@ -16,20 +16,18 @@ namespace ProjetoPixelPlace.Controllers
         UsuarioModel model = new UsuarioModel();
 
 
-        
+
         //colocar como parametrom, email e senha, ver se existe esse usuario, caso existir, coloca ele em uma session
         public ActionResult Logar()
         {
-            
+
             // era pra ser model.ValidaUser(), mas criei usuario de teste
             //criei um usuario teste
-            Usuario user = new Usuario(null,"Joao","1234","kaio","1234");
-            
-            //coloquei ele numa session
-            HttpContext.Session.SetString("user",JsonConvert.SerializeObject(user));
+            Usuario user = new Usuario(null, "Joao", null, "kaio", "1234");
+
 
             //e retornei a index de listar, mas deveria validar se ele realmente esta logado;
-            return RedirectToAction("Index");
+            return RedirectToAction("Listagem");
         }
 
         //index cadastrar, aqui vira o model.inserirUsuario...
@@ -37,8 +35,8 @@ namespace ProjetoPixelPlace.Controllers
         {
             return View();
         }
-        
-        public ActionResult Index()
+
+        public ActionResult Listagem()
         {
             //aqui eu vejo se ele realmente pode estar aqui...
             if (HttpContext.Session.GetString("user") != null)
@@ -56,32 +54,44 @@ namespace ProjetoPixelPlace.Controllers
         public ActionResult Details()
         {
             return View();
-            
+
         }
 
         // POST: UsuarioController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         //aqui é o create do usuario...
-        public ActionResult Create(string nomeUsuario, string UrlImage, string email, string senha)
-        {  
+        public ActionResult Create(string nomeUsuario, string email, string senha)
+        {
             try
             {
+                byte[] imagem = null;
+                var msg = "";
+
                 //crio um user
-                Usuario u = new Usuario(null, nomeUsuario, UrlImage, email, senha);
-
+                Usuario u = new Usuario(null, nomeUsuario, imagem, email, senha);
                 //insiro o user e guardo a resposta..
-
-                var msg = model.inserirUsuario(u);
+                msg = model.inserirUsuario(u);
 
                 //se a mensagem for sucedida, mando pro index, caso nao retorno a mensagem de erro pra mesma view, criar um dialogo sobre isso
                 if (msg == "Usuário cadastrado com sucesso")
-                return RedirectToAction(nameof(Index));
+                {
 
+                    //coloquei ele numa session
+                    HttpContext.Session.SetString("user", JsonConvert.SerializeObject(u));
+
+                    // e retorno a imagem
+                    return RedirectToAction(nameof(Listagem));
+                }
+                    
+
+
+                //para parar de dar erro, somente produzir uma mensagem de erro 
+                //utilizo assim por debug somente
                 return View(msg);
             }
             catch
-            { 
+            {
                 return View();
             }
         }
@@ -99,7 +109,7 @@ namespace ProjetoPixelPlace.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Listagem));
             }
             catch
             {
@@ -120,7 +130,7 @@ namespace ProjetoPixelPlace.Controllers
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Listagem));
             }
             catch
             {
