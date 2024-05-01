@@ -7,12 +7,13 @@ using ProjetoPixelPlace.Models;
 
 namespace ProjetoPixelPlace.Controllers
 {
+ 
     public class UsuarioController : Controller
     {
         //Oi lucas, ana ou samuel
 
 
-        //model do banco de dados
+        //Injeção do nosso repositorio de dados
         UsuarioModel model = new UsuarioModel();
 
 
@@ -25,26 +26,23 @@ namespace ProjetoPixelPlace.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Logar(string email, string senha)   //colocar como parametro, email e senha, ver se existe esse usuario, caso existir, coloca ele em uma session
         {
+            //verifico se existe, caso n, devolvo null
             var user = model.ValidaUser(email, senha);
             if (user!=null)
             {
+                //caso tiver eu coloco na session
                 HttpContext.Session.SetString("user", JsonConvert.SerializeObject(user));
                 return RedirectToAction("Listagem");
             }
-
-
-            return View();
-           
-            //e retornei a index de listar, mas deveria validar se ele realmente esta logado;
-            
+            return View();           
         }
 
-        //index cadastrar, aqui vira o model.inserirUsuario...
         public ActionResult Create()
         {
             return View();
         }
 
+        [ServiceFilter(typeof(Autenticao))]
         public ActionResult Listagem()
         {
             //aqui eu vejo se ele realmente pode estar aqui...
@@ -92,8 +90,6 @@ namespace ProjetoPixelPlace.Controllers
                     // e retorno a imagem
                     return RedirectToAction(nameof(Listagem));
                 }
-                    
-
 
                 //para parar de dar erro, somente produzir uma mensagem de erro 
                 //utilizo assim por debug somente
