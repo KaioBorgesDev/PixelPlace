@@ -37,7 +37,7 @@ namespace ProjetoPixelPlace.Controllers
         //quando clickar no submit, entrara nesse metodo, aonde realizara o cadastro.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(string nome, string descricao, string categoria, double preco, double desconto, DateTime data)
+        public ActionResult Create(string nome, string descricao, string categoria, double preco, double desconto, DateTime data_lancamento, int numero_estrelas, int numero_avaliacao, string desenvolvedora, int jogo_destaque)
         {
             //aqui eu crio a vario result, a qual mostrar a mensagem de retorno no metodo create jogo
             string result = "";
@@ -59,7 +59,7 @@ namespace ProjetoPixelPlace.Controllers
                         image = memoryStream.ToArray();
 
                         //crio um jogo que sera adicionado com os campos
-                        var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data);
+                        var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data_lancamento, numero_avaliacao, numero_estrelas, desenvolvedora, jogo_destaque);
                         //passo para o resultado o return do jogoADD (cadastrado com sucesso ou erro)
                         result = jogoModel.inserirJogo(jogoAdd);
                     }

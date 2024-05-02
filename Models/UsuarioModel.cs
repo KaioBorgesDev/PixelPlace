@@ -6,27 +6,31 @@ namespace ProjetoPixelPlace.Models
 {
     public class UsuarioModel
     {
-        //REMODELAR ESSA CLASSE TA HORRIVEL....
+        private MySqlConnection conexaoBD = null;
 
-        public List<Usuario> getAllUser()
+        public MySqlConnection abreConexao()
         {
-
-            List<Usuario> users = new List<Usuario>();
             MySqlConnection con;
-            byte[] imagem = null; 
             try
             {
                 con = CriadorConexao.getConexao("ConexaoPadrao");
-                con.Open();
-
+                con.Open(); 
+                return con;
             }
             catch (Exception ex)
             {
                 con = CriadorConexao.getConexao("casa");
                 con.Open();
-            }
+                return con;
+            }         
+        }
 
-            MySqlCommand comando = new MySqlCommand("Select * from usuario", con);
+        public List<Usuario> getAllUser()
+        {
+            List<Usuario> users = new List<Usuario>();          
+            byte[] imagem = null; 
+
+            MySqlCommand comando = new MySqlCommand("Select * from usuario", conexaoBD = abreConexao());
             MySqlDataReader reader = comando.ExecuteReader();
             while (reader.Read())
             {
@@ -42,9 +46,9 @@ namespace ProjetoPixelPlace.Models
                 reader["Senha"].ToString());
 
                 users.Add(usuario);
-             
+               
             }
-            con.Close();
+            conexaoBD.Close();
             return users;
         }
 
@@ -52,55 +56,36 @@ namespace ProjetoPixelPlace.Models
         public string inserirUsuario(Usuario usuario)
         {
             string mensagem = "";
-            try
-            {
-                using (MySqlConnection con = CriadorConexao.getConexao("casa"))
+
+            conexaoBD = abreConexao();
+
+            MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO usuario(nomeUser, email, senha) VALUES (@nome, @email, @senha)", conexaoBD);
                 {
-                    con.Open();
-                    using (MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO usuario(nomeUser, email, senha) VALUES (@nome, @email, @senha)", con))
+                    mySqlCommand.Parameters.AddWithValue("@nome", usuario.NomeUsuario);
+                    mySqlCommand.Parameters.AddWithValue("@email", usuario.Email);
+                    mySqlCommand.Parameters.AddWithValue("@senha", usuario.Senha);
+                    int rowsAffected = mySqlCommand.ExecuteNonQuery();
+
+                    if (rowsAffected > 0)
                     {
-                        mySqlCommand.Parameters.AddWithValue("@nome", usuario.NomeUsuario);
-                        mySqlCommand.Parameters.AddWithValue("@email", usuario.Email);
-                        mySqlCommand.Parameters.AddWithValue("@senha", usuario.Senha);
-                        int rowsAffected = mySqlCommand.ExecuteNonQuery();
-                        if (rowsAffected > 0)
-                        {
-                            mensagem = "Usuário cadastrado com sucesso";
-                        }
-                        else
-                        {
-                            mensagem = "Falha ao cadastrar usuário";
-                        }
+                        mensagem = "Usuário cadastrado com sucesso";
                     }
-                }
-            }
-            catch (Exception ex)
-            {
-                mensagem = "Ocorreu um erro ao cadastrar o usuário: " + ex.Message;
-            }
+                    else
+                    {
+                        mensagem = "Falha ao cadastrar usuário";
+                    }
+                } 
+            conexaoBD.Close();
             return mensagem;
         }
         public Usuario ValidaUser(string email, string senha)
         {
             Usuario user;
             byte[] imagem = null;
-            MySqlConnection con;
-            try
-            {
-                con = CriadorConexao.getConexao("ConexaoPadrao");
-                con.Open();
-                con.Close();
 
-            }
-            catch (Exception ex)
-            {
-                con = CriadorConexao.getConexao("casa");
-                con.Open();
-            }
+            conexaoBD = abreConexao();
 
-
-
-            MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO WHERE email = @email AND senha = @senha", con);
+            MySqlCommand command = new MySqlCommand("SELECT * FROM USUARIO WHERE email = @email AND senha = @senha", conexaoBD);
             command.Parameters.AddWithValue("@email", email);
             command.Parameters.AddWithValue("@senha", senha);
             MySqlDataReader reader = command.ExecuteReader();
@@ -123,6 +108,7 @@ namespace ProjetoPixelPlace.Models
 
                 return user;
             }
+            conexaoBD.Close();
             return null;
         }
     }  
