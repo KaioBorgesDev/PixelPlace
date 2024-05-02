@@ -6,6 +6,6 @@
     "\\Views",
     "\\Views\\Jogo"
   ],
-  "SelectedNode": "\\Views\\Jogo\\Create.cshtml",
+  "SelectedNode": "\\Models\\JogoModel.cs",
   "PreviewInSolutionExplorer": false
 }
