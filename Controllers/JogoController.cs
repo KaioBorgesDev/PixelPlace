@@ -42,7 +42,7 @@ namespace ProjetoPixelPlace.Controllers
             //aqui eu crio a vario result, a qual mostrar a mensagem de retorno no metodo create jogo
             string result = "";
             //crio uma imagem, talvez possa ser que não estou usando...
-            byte[] image = null;
+            
             try
             {
                 //aqui eu pego a imagem enviada no corpo do request
@@ -56,12 +56,16 @@ namespace ProjetoPixelPlace.Controllers
                         //transfiro a imagem para essa memory
                         arq.CopyTo(memoryStream);
                         //depois deixo em array de bytes
-                        image = memoryStream.ToArray();
+                        byte[] imagem = memoryStream.ToArray();
 
                         //crio um jogo que sera adicionado com os campos
-                        var jogoAdd = new Jogo(null, nome, image, descricao, categoria, preco, desconto, data_lancamento, numero_avaliacao, numero_estrelas, desenvolvedora, jogo_destaque);
+                        var jogoAdd = new Jogo(null, nome, imagem, descricao, categoria, preco, desconto, data_lancamento, numero_avaliacao, numero_estrelas, desenvolvedora, jogo_destaque);
                         //passo para o resultado o return do jogoADD (cadastrado com sucesso ou erro)
                         result = jogoModel.inserirJogo(jogoAdd);
+                    }
+                    else
+                    {
+                        result = "Imagem com erro"; 
                     }
                 }
                 

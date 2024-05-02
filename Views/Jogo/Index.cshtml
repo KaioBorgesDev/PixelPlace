@@ -62,12 +62,11 @@
             </td>
             <td>
                     @{
-                        if(item.Imagem != null)
-                        {
-                            string imagem = Convert.ToBase64String(item.Imagem);
-                            string formato = "data:image/jpeg;base64," + imagem;
-                            <img src="@formato" />
-                        }
+                        
+                    string imagem = Convert.ToBase64String(item.Imagem);
+                    string formato = "data:image/jpeg;base64," + imagem;
+                    <img src="@formato" />
+                        
                     }
             </td>
             <td>

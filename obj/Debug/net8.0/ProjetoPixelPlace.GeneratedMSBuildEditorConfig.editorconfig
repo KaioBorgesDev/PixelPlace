@@ -17,13 +17,13 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoPixelPlace
 build_property.RootNamespace = ProjetoPixelPlace
-build_property.ProjectDir = C:\Users\julin\Source\Repos\KaioBorgesDev\PixelPlace\
+build_property.ProjectDir = C:\Users\julin\source\repos\KaioBorgesDev\PixelPlace\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\julin\Source\Repos\KaioBorgesDev\PixelPlace
+build_property.MSBuildProjectDirectory = C:\Users\julin\source\repos\KaioBorgesDev\PixelPlace
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/julin/Source/Repos/KaioBorgesDev/PixelPlace/Views/Home/Index.cshtml]

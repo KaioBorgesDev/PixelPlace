@@ -65,7 +65,6 @@ namespace ProjetoPixelPlace.Models
             string mensagem = "";
 
             
-            //ESTA COM PROBLEMA NA IMAGEM... 
             
             
             
