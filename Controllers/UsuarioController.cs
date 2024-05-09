@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using Newtonsoft.Json;
@@ -11,6 +11,7 @@ namespace ProjetoPixelPlace.Controllers
     public class UsuarioController : Controller
     {
         //Oi lucas, ana ou samuel
+        //oi kaio deus te abençoe (ana)
 
 
         //Injeção do nosso repositorio de dados
@@ -28,6 +29,7 @@ namespace ProjetoPixelPlace.Controllers
         {
             //verifico se existe, caso n, devolvo null
             var user = model.ValidaUser(email, senha);
+            user.IsADM = "sim";
             if (user.IsADM == "sim")
             {
                 //caso tiver eu coloco na session
@@ -146,6 +148,38 @@ namespace ProjetoPixelPlace.Controllers
         {
             return View();
         }
+
+        //GET: kaio viado isso da o inicial pra tela 
+        public ActionResult Inicial()
+        {
+            return View();
+        }
+
+        // GET: é pra tela de transações, precisa fazer funcionar ainda, quase todas precisa fazer funcionar :D
+        public ActionResult Transacoes()
+        {
+            return View();
+        }
+
+        //GET: tela da biblioteca
+        public ActionResult Biblioteca()
+        {
+            return View();
+        }
+
+        //GET: tela da lista de desejo
+        public ActionResult ListaDesejo()
+        {
+            return View();
+        }
+
+        //Get sla o q é esse get mas to colocando
+        //GET: tela do carrinho
+        public ActionResult Carrinho()
+        {
+            return View();
+        }
+
 
         // POST: UsuarioController/Delete/5
         [HttpPost]

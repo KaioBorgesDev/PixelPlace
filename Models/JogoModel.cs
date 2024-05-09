@@ -97,9 +97,6 @@ namespace ProjetoPixelPlace.Models
             string mensagem = "";
 
             
-            
-            
-            
 
             conexaoBD = abreConexao();
             MySqlCommand mySqlCommand = new MySqlCommand("INSERT INTO Jogo(nome, imagem, descricao, categoria,preco,desconto,data_lancamento,num_avaliacao, num_estrelas,desenvolvedora,jogo_destaque) VALUES (@nome, @imagem, @descricao, @categoria,@preco,@desconto,@data_lancamento,@num_avaliacao, @num_estrelas, @desenvolvedora,@jogo_destaque)", conexaoBD);        
